@@ -4,12 +4,18 @@
   font-size: 28rpx;
 }
 .category-list-item {
+  padding: 20rpx 0;
+}
+.category-item-title {
   padding: 20rpx;
-  margin-bottom: 20rpx;
-  border-bottom: 1px solid #dcdcdc;
+  border: 1px solid #3a3a3a;
+  border-radius: 10rpx;
+  /* background-color: rgb(235, 233, 233); */
 }
 .category-more-info {
+  padding: 0 20rpx;
   margin-top: 20rpx;
-  color: #666;
+  color: #3a3a3a;
   font-size: 26rpx;
+  transition: all .1s ease-in-out;
 }
