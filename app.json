@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "coffee",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#686868",
+    "selectedColor": "#409EFF",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tab_1_default.png",
+        "selectedIconPath": "images/tab_1_active.png",
+        "text": "来源"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "iconPath": "images/tab_2_default.png",
+        "selectedIconPath": "images/tab_2_active.png",
+        "text": "品种"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
