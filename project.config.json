@@ -25,10 +25,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.0",
-	"appid": "touristappid",
+	"appid": "wx5db842aeab9d5717",
 	"projectname": "coffee",
-	"miniprogramRoot": "dist/",
-	"cloudfunctionTemplateRoot": "",
 	"watchOptions": {
 		"ignore": []
 	},
@@ -36,6 +34,8 @@
 		"hidedInDevtools": []
 	},
 	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
