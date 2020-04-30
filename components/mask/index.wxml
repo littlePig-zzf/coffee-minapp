@@ -1,0 +1,7 @@
+<view class="mask">
+  <view class="mask-content">
+    <image class="avatar" />
+    <view class="title"></view>
+    <view class="desc"></view>
+  </view>
+</view>

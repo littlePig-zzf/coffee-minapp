@@ -1,4 +1,4 @@
-//index.js
+//pages/category/index.js
 const app = getApp()
 
 Page({
