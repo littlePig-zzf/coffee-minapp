@@ -5,6 +5,7 @@ page {
   background: #f6f6f6;
   box-sizing: border-box;
   font-family: PingFangSC-Regular;
+  line-height: 45rpx;
 }
 
 /* 标题 */

@@ -4,7 +4,6 @@
   margin-bottom: 60rpx;
   border-radius: 20rpx;
   background-color: #fff;
-  box-shadow: 0 2rpx 26rpx 0 rgba(0,0,0,.15);
+  box-shadow: 0 2px 7px rgba(0,0,0,.15);
   box-sizing: border-box;
-  overflow: hidden;
 }

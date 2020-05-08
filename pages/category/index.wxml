@@ -1,11 +1,13 @@
 <view class="container category">
   <view class="title">咖啡品种</view>
   <view class="category-list">
-    <view class="category-list-item" wx:for="{{category}}" wx:key="index" data-index="{{index}}" catchtap="showDesc">
-      <view class="category-item-avatar"></view>
+    <view class="category-list-item" wx:for="{{category}}" wx:key="index" data-index="{{index}}">
+      <view class="category-item-avatar">
+        <image src="{{item.img}}" mode="widthFix" />
+      </view>
       <view class="category-item-content">
         <view class="category-item-title">{{item.title}}</view>
-        <view class="category-more-info" wx:if="{{item.showDesc}}">{{item.desc}}</view>
+        <view class="category-more-info">{{item.desc}}</view>
       </view>
     </view>
   </view>
