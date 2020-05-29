@@ -1,0 +1,7 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="content-group">
+    <view class="title">冲煮方法</view>
+    <view class="content"></view>
+  </view>
+</view>

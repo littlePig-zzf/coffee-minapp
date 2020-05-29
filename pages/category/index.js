@@ -1,5 +1,5 @@
 //pages/category/index.js
-const coffeesData = require("./coffees.js")
+const coffeesData = require("../../assets/coffees.js")
 const app = getApp()
 
 Page({

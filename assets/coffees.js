@@ -115,6 +115,13 @@ export const coffees = [
   },
 ]
 
-export const way = [
-
+export const cook = [
+  {
+    title: "磨制",
+    children: [
+      { title: "研磨", desc: "" },
+      { title: "打磨", desc: "" },
+      { title: "臼磨", desc: "" }
+    ]
+  }
 ]

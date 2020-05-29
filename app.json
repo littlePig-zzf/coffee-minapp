@@ -1,14 +1,15 @@
 {
   "pages": [
     "pages/category/index",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/cook/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#221f1f",
     "navigationBarTitleText": "coffee",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#686868",
@@ -27,6 +28,12 @@
         "iconPath": "images/tab_2_default.png",
         "selectedIconPath": "images/tab_2_active.png",
         "text": "品种"
+      },
+      {
+        "pagePath": "pages/cook/index",
+        "iconPath": "images/tab_2_default.png",
+        "selectedIconPath": "images/tab_2_active.png",
+        "text": "冲煮"
       }
     ]
   },
