@@ -1,9 +1,1 @@
 /**index.wxss**/
-.content-group {
-  padding: 30rpx;
-  margin-bottom: 60rpx;
-  border-radius: 20rpx;
-  background-color: #fff;
-  box-shadow: 0 2px 7px rgba(0,0,0,.15);
-  box-sizing: border-box;
-}
