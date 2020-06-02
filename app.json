@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/effect/index",
+    "pages/cook/index",
     "pages/category/index",
-    "pages/index/index",
-    "pages/cook/index"
+    "pages/index/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -12,8 +13,8 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "#686868",
-    "selectedColor": "#409EFF",
+    "color": "#bfbfbf",
+    "selectedColor": "#221f1f",
     "borderStyle": "black",
     "backgroundColor": "#fff",
     "list": [
@@ -24,15 +25,21 @@
         "text": "来源"
       },
       {
-        "pagePath": "pages/category/index",
+        "pagePath": "pages/effect/index",
         "iconPath": "images/tab_2_default.png",
         "selectedIconPath": "images/tab_2_active.png",
+        "text": "作用"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "iconPath": "images/tab_3_default.png",
+        "selectedIconPath": "images/tab_3_active.png",
         "text": "品种"
       },
       {
         "pagePath": "pages/cook/index",
-        "iconPath": "images/tab_2_default.png",
-        "selectedIconPath": "images/tab_2_active.png",
+        "iconPath": "images/tab_4_default.png",
+        "selectedIconPath": "images/tab_4_active.png",
         "text": "冲煮"
       }
     ]
