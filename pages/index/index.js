@@ -5,8 +5,4 @@ Page({
   data: {
   },
 
-  onLoad: function () {
-
-  },
-
 })
