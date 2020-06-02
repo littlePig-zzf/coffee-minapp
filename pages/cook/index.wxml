@@ -1,7 +1,21 @@
 <!-- index.wxml -->
 <view class="container">
   <view class="content-group">
-    <view class="title">冲煮方法</view>
-    <view class="content"></view>
+    <view class="content">
+      <view class="navMenu-wrap">
+        <view wx:for="{{navMenu}}" wx:key="index" class="navMenu-list {{index == onShowMenu ? 'on' : '' }} {{index == 0 ? 'one' : '' }}" catchtap="changeMenu" data-idx="{{index}}" data-title="{{item.title}}">
+          <view>{{item.title}}</view>
+        </view>
+      </view>
+      <view wx:if="{{navMenu[onShowMenu].children}}">
+        <view wx:for="{{navMenu[onShowMenu].children}}" wx:key="index" class="navMenu-item-content">
+          <view class="title">{{item.title}}</view>
+          <view class="desc">{{item.desc}}</view>
+          <view wx:for="{{item.list}}" wx:key="index" class="navMenu-item-content-list">
+            {{item.title}}{{item.desc}}
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>
