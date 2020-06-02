@@ -1,0 +1,18 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="content-group">
+    <view class="title">咖啡成分</view>
+    <view class="content">
+      <view wx:for="{{effect}}" wx:key="index" class="content-item">
+        <text class="content-item-title">{{item.title}}</text>
+        <text>{{item.desc}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="content-group">
+    <view class="title">咖啡作用</view>
+    <view class="content">
+      咖啡因会刺激中枢神经系统特别是脑细胞，兴奋大脑皮质，使人提高警惕性、情绪激昂、睡意降低并减轻疲劳，维持持久的工作能力。亦能提高身体基础代谢，抗老化，具有利尿作用，并能刺激肠胃蠕动，帮助排便。咖啡因还可以缩短人的反应时间并提高反应能力，因此在奥运会中被列为违禁品。但过量摄入咖啡因也会带来副作用，使人失眠、烦躁、易怒。
+    </view>
+  </view>
+</view>
