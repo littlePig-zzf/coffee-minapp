@@ -8,12 +8,6 @@ Page({
     navMenu: coffeesData.cook,   // 一级导航
   },
 
-  onLoad: function () {
-    wx.setNavigationBarTitle({
-      title: '冲煮方法'
-    })
-  },
-
   changeMenu (e) {
     let idx = e.currentTarget.dataset.idx || 0
     this.setData({
