@@ -10,4 +10,6 @@
 ## 参考文档
 
 - [小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
+- [git 规范](https://www.yuque.com/fe9/basic/nruxq8)
+- [git commit 提交emoji规范🤪](https://juejin.im/post/5c9646996fb9a070a972b418)
 
