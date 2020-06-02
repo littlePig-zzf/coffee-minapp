@@ -2,5 +2,4 @@
 const app = getApp()
 
 Page({
-
 })
