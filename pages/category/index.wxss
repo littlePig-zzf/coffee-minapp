@@ -9,6 +9,7 @@
   padding: 20rpx;
   margin-bottom: 40rpx;
   border-radius: 10rpx;
+  background-color: #fff;
   box-shadow: 0 2px 7px rgba(0,0,0,.15);
   overflow: hidden;
 }
